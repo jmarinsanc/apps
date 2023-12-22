@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="463dp"
+        android:layout_height="774dp"
+        android:background="#2F444534"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:fontFamily="casual"
+            android:lineSpacingExtra="16sp"
+            android:paddingTop="40px"
+            android:text="Calculadora de IMC"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#090B0A"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            app:lineHeight="20px" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50px" />
+
+        <EditText
+            android:id="@+id/textPeso"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Introduce tu peso en Kg" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:id="@+id/textAltura"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Introduce tu peso en Kg" />
+
+        <Button
+            android:id="@+id/buttonPeso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#AEA556"
+            android:backgroundTint="#C8DA14"
+            android:backgroundTintMode="add"
+            android:fontFamily="monospace"
+            android:text="Calcular"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50px" />
+
+        <TextView
+            android:id="@+id/textResultado2"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="IMC:"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textResultado"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="12"
+            android:text="Resultado"
+            android:textAlignment="viewStart"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

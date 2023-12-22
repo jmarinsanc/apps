@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">App_Imc</string>
+
+    <string name="delgadez">Usted sufre delgadez, debería comer más</string>
+    <string name="buen_estado_forma">Su estado de forma es bueno</string>
+    <string name="sobrepeso">Usted sufre sobrepeso, debería cuidarse y llamar a un dietista</string>
+    <string name="obesidad">Usted sufre obesidad, debería llamar a un médico urgentemente</string>
+
+    <string name="error_calculo_imc">Hubo un error al calcular el IMC. Verifique los valores ingresados.</string>
+    <string name="error_campos_vacios">Por favor, complete los campos de peso y altura.</string>
+
+</resources>
